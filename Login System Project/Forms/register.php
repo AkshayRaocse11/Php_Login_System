@@ -7,28 +7,42 @@
 
 	Page::ForceDashboard();
 ?>
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="follow">
+<title> Login System</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="firstcss.css">
+<style>
+   
+    
+</style>    
+          
+</head>
 
-    <title>Login System Projecr</title>
+<body>
+<header> <h1> Welcome To testing Module </h1> </header>
 
-    <base href="/" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css" />
-  </head>
+   
 
-  <body>
 
-  	<div class="uk-section uk-container">
+<section>
+    
+  
+    
+    
+    
+    <div class="container">
+ 
+        
+      <div class="uk-section uk-container">
   		<div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
-			<form class="uk-form-stacked js-login">
+			<form class="uk-form-stacked js-register">
 				
-				<h2>Login</h2>
+				<h2>Register</h2>
 
 			    <div class="uk-margin">
 			        <label class="uk-form-label" for="form-stacked-text">Email</label>
@@ -38,22 +52,32 @@
 			    </div>
 
 			    <div class="uk-margin">
-			        <label class="uk-form-label" for="form-stacked-text">Password</label>
+			        <label class="uk-form-label" for="form-stacked-text">Passphrase</label>
 			        <div class="uk-form-controls">
-			            <input class="uk-input" id="form-stacked-text" type="password" required='required' placeholder="Your Password">
+			            <input class="uk-input" id="form-stacked-text" type="password" required='required' placeholder="Your passphrase">
 			        </div>
 			    </div>
 
 			    <div class="uk-margin uk-alert uk-alert-danger js-error" style='display: none;'></div>
 
 			    <div class="uk-margin">
-			        <button class="uk-button uk-button-default" type="submit">Login</button>
+			        <button class="uk-button uk-button-default" type="submit">Register</button>
 			    </div>
 
 			</form>
   		</div>
   	</div>
+  </form>
+</div>
+    
+    
+    
+    
+    
+    </section>    
 
-  	<?php require_once "inc/footer.php"; ?> 
-  </body>
+    <?php require_once "inc/footer.php"; ?> 
+</body>
+
+
 </html>

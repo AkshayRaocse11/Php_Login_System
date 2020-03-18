@@ -7,23 +7,35 @@
 
 	Page::ForceDashboard();
 ?>
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="follow">
+<title> Login System</title>
+    
+<link rel="stylesheet" type="text/css" href="firstcss.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+   
+</style>    
+          
+</head>
 
-    <title>Login System Projecr</title>
+<body>
+<header> <h1> Welcome To testing Module </h1> </header>
 
-    <base href="/" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css" />
-  </head>
+   
 
-  <body>
 
+<section>
+    
+  
+    
+    
+    
+    <div class="container">
   	<div class="uk-section uk-container">
   		<div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
 			<form class="uk-form-stacked js-login">
@@ -49,11 +61,17 @@
 			    <div class="uk-margin">
 			        <button class="uk-button uk-button-default" type="submit">Login</button>
 			    </div>
+      
+  </form>
+</div>
+    
+    
+    
+    <?php require_once "inc/footer.php"; ?> 
+    
+    </section>    
 
-			</form>
-  		</div>
-  	</div>
+</body>
 
-  	<?php require_once "inc/footer.php"; ?> 
-  </body>
+
 </html>
